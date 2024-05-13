@@ -9,3 +9,7 @@ for i in get_list(a, b):
     print(f'line number #{i}')
 
 print(f'the length is {get_len(get_list(1,10))}')
+
+for i in get_list(1,10):
+    print(f'long timer #{i}')
+    time.sleep(10)
